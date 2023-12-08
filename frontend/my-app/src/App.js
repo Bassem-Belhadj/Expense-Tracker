@@ -1,4 +1,4 @@
-import React ,{useState , useMemo} from 'react';
+ import React ,{useState , useMemo, useContext} from 'react';
 import styled from 'styled-components';
 import bg from './img/bg.png.url'
 import {MainLayout} from './styles/Layouts'
@@ -7,13 +7,14 @@ import Navigation from './Components/Navigation/Navigation';
 import Dashboard from './Components/Dashboard/Dashboard';
 import Incomes from './Components/Incomes/Incomes';
 import Expenses from './Components/Expenses/Expences';
-
+import { useGlobalContext } from './context/globalContext';
 
 
 function App() {
   const [active, setActive] = useState(1)
 
- 
+ const  global = useGlobalContext()
+ console.log(global);
 
   const displayData = () => {
     switch(active){
