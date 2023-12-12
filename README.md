@@ -18,7 +18,6 @@
 
 ## Getting Started
 
-```bash
 #!/bin/bash
 
 # Clone the repository
@@ -42,5 +41,4 @@ echo "MONGODB_URI=your_mongodb_connection_string" > server/.env
 
 # Start the application
 npm start
-
 
