@@ -19,7 +19,7 @@
 ## Getting Started
 
 1. Clone the repository:
- git clone https://github.com/Bassem-Belhadj/expense-tracker-app.git
+ git clone https://github.com/Bassem-Belhadj/Expense-Tracker.git
 2. Install dependencies:
  npm install
 3. Set up environment variables:
