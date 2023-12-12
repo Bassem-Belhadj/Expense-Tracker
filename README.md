@@ -18,12 +18,28 @@
 
 ## Getting Started
 
-1. Clone the repository:
- git clone https://github.com/Bassem-Belhadj/Expense-Tracker.git
-2. Install dependencies:
- npm install
-3. Set up environment variables:
-   MONGODB_URI=your_mongodb_connection_string
-4. Start the application:
-   npm start
+#!/bin/bash
+
+# Clone the repository
+git clone https://github.com/Bassem-Belhadj/Expense-Tracker.git
+
+# Change into the project directory
+cd expense-tracker-app
+
+# Install server dependencies
+cd server
+npm install
+cd ..
+
+# Install client dependencies
+cd client
+npm install
+cd ..
+
+# Create a .env file in the server directory
+echo "MONGODB_URI=your_mongodb_connection_string" > server/.env
+
+# Start the application
+npm start
+
 
