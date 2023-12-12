@@ -18,13 +18,14 @@
 
 ## Getting Started
 
+```bash
 #!/bin/bash
 
 # Clone the repository
 git clone https://github.com/Bassem-Belhadj/Expense-Tracker.git
 
 # Change into the project directory
-cd expense-tracker-app
+cd Expense-Tracker
 
 # Install server dependencies
 cd server
